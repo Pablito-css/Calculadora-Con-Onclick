@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 😜</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="pantalla" id="pantalla">0</div>
+        <button class="btn" onclick="limpiarPantalla()">C</button>
+        <button class="btn" onclick="borrarUltimo()">⬅️</button>
+        <button class="btn" onclick="presionarBoton('/')">/</button>
+        <button class="btn" onclick="presionarBoton('*')">*</button>
+        <button class="btn" onclick="presionarBoton('7')">7</button>
+        <button class="btn" onclick="presionarBoton('8')">8</button>
+        <button class="btn" onclick="presionarBoton('9')">9</button>
+        <button class="btn" onclick="presionarBoton('-')">-</button>
+        <button class="btn" onclick="presionarBoton('4')">4</button>
+        <button class="btn" onclick="presionarBoton('5')">5</button>
+        <button class="btn" onclick="presionarBoton('6')">6</button>
+        <button class="btn" onclick="presionarBoton('+')">+</button>
+        <button class="btn" onclick="presionarBoton('1')">1</button>
+        <button class="btn" onclick="presionarBoton('2')">2</button>
+        <button class="btn" onclick="presionarBoton('3')">3</button>
+        <button class="btn" onclick="resolver()">=</button>
+        <button class="btn" onclick="presionarBoton('0')" id="cero">0</button>
+        <button class="btn" onclick="presionarBoton('.')">.</button>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
